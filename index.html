@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>   Bank  </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-600">
+    <header>
+        <h1 class="text-5xl font-semibold text-center mt-9 mb-9">LET'S WETHDO AND DEPOSIT<span class="text-indigo-500"> MOOOOOONY</span> !!!!</h1>
+    </header>
+    <main>
+        <section class="mb-9">
+            <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto">
+                <div class="bg-emerald-400 rounded-xl p-7 text-white">
+                    <p class="text-3xl font-mono">Deposit</p>
+                    <h3 class="text-5xl">$<span id="deposit-amount">00</span></h3>
+                </div>
+                <div class="bg-amber-400 rounded-xl p-7 text-white">
+                    <p class="text-3xl font-mono">Wethdro</p>
+                    <h3 class="text-5xl">$<span id="wethdro-amount">00</span></h3>
+                </div>
+                <div class="bg-lime-400 rounded-xl p-7 text-white">
+                    <p class="text-3xl font-mono">Balance</p>
+                    <h3 class="text-5xl">$<span id="Total-Balance">110000</span></h3>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto ">
+                <div class="bg-fuchsia-500 hover:bg-fuchsia-600 p-8 rounded-xl">
+                    <h1 class="text-3xl mb-5 text-white">Please Diposit</h1>
+                    <div class="ms-5">
+                        <input class="mb-3 w-9/12 px-7 py-2 rounded" type="text" name="" id="input-filed" placeholder="$ amount you want to diposit"><br>
+                
+                        <button id="deposit-btn" class="text-white text-white bg-fuchsia-900 hover:bg-fuchsia-950 px-10  py-3 text-xl rounded-xl">Diposit</button>
+                    </div>
+                </div>
+                <div class="bg-red-400 hover:bg-red-500 p-5 rounded-xl">
+                    <h1 class="text-3xl mb-5 text-white">Please Withdraw</h1>
+                    <div class="ms-5">
+                        <input class="mb-3 w-9/12 px-7 py-2 rounded" type="text" name="" id="input-filed2" placeholder="$ amount you want to withdraw"><br>
+                
+                        <button id="wethdro-btn" class="text-white text-white bg-red-900 hover:bg-red-950 px-10  py-3 text-xl rounded-xl">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+<!-- js files is hear -->
+    <script src="styles/utilites.js"></script>
+    <script src="styles/deposit.js"></script>
+    <script src="styles/wedro.js"></script>
+<!-- js files is hear -->
+</body>
+</html>
